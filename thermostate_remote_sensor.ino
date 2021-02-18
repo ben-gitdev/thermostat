@@ -29,7 +29,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 //MAC Address of the receiver 
-uint8_t broadcastAddress[] = {0x84, 0xCC, 0xA8, 0x5E, 0x92, 0x9C};
+uint8_t broadcastAddress[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
 //Structure example to send data
 //Must match the receiver structure
