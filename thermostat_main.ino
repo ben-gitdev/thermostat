@@ -11,11 +11,9 @@
 #include <Adafruit_SSD1306.h>
 #include <Update.h>
 
-//const char* host = "esp32";
-// MAC of this board: 84:cc:a8:5e:92:9c
 // REPLACE WITH YOUR NETWORK CREDENTIALS
-const char* ssid = "X8FH7";
-const char* password = "RKW22X5SK974X4Z9";
+const char* ssid = "";
+const char* password = "";
 
 #define DHTPIN 27     // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT22     // DHT 22 (AM2302)
