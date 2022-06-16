@@ -49,7 +49,7 @@ const long interval = 5000;        // Interval at which to publish sensor readin
 unsigned int readingId = 0;
 
 // Insert your SSID
-constexpr char WIFI_SSID[] = "X8FH7";
+constexpr char WIFI_SSID[] = "*****";//replace with your WIFI SSID
 
 int32_t getWiFiChannel(const char *ssid) {
   if (int32_t n = WiFi.scanNetworks()) {
